@@ -1,0 +1,84 @@
+{
+    "Demand Planning Tool": {
+        "className": "DemandPlanningTool",
+        "authorizeViaMDS": true,
+        "type": "Assets",
+        "index": "assets",        
+        "signatureKey": "hdiwnb83kcls8emg9w6yermq87elw2k492643mh72l28der",
+        "sessionTimeout": "3600",
+        "aggSize": 100,
+        "aggCount": 100,
+        "roles":
+                {
+                    "admin": {
+                        "level": 1,
+                        "source": []
+                    },
+
+                    "user": {
+                        "level": 2,
+                        "source": []
+                    }
+                }
+    },
+    "PeopleFinder": {
+        "className": "PeopleFinder",
+        "authorizeViaMDS": false,
+        "type": "EmployeeSearch",
+        "index": "employeesearch",
+        "searchableFields":"businessunit:1.0,department:1.0,empaboutme:1.0,empbusinessline:1.0,empbusinesstitle:1.0,empcertificates:1.0,empcity:1.0,empcountriesworked:1.0,empcountry:1.0,empcurrentprojects:1.0,empdesignation:1.0,empdiscipline:1.0,empeducation:1.0,empexperiences:1.0,empfax:1.0,empid:1.0,empinteresthobbies:1.0,empjobfunction:1.0,empjobsubfuncion:1.0,emplocation:1.0,employeeemail:1.0,employeename:1.0,empofficetype:1.0,empoibusnphone:1.0,empoiispeeddial:1.0,emppastprojects:1.0,emppersonalcertifications:1.0,empserviceline:1.0,empskills:1.0,empskillset:1.0,empspokenlanguage:1.0,empstatus:1.0,empsubserviceline:1.0,emptradesassociation:1.0,emptraining:1.0,emptype:1.0,hiredate:1.0,lastupdated:1.0,oceexperience:1.0,phone:1.0,preffirstname:1.0,region:1.0,totalexperience:1.0,userid:1.0",
+        "signatureKey": "kdjfdjfkdfjfr48rhdjkhdfjkdf4r49dkdkfkfkfhuincmn",
+        "sessionTimeout": "3600",
+        "aggSize": 100,
+        "aggCount": 100,
+        "roles":
+                {
+                    "power user": {
+                        "level": 1,
+                        "source": []
+                    }
+                }
+    },
+    "Employee Search": {
+        "className": "EmployeeSearch",
+        "authorizeViaMDS": true,
+        "type": "EmployeeSearch",
+        "index": "employeesearch",
+        "signatureKey": "mncxmveuryejjhdjh467gf785gdhfgdhffjgfjgjdjdggjdj",
+        "sessionTimeout": "3600",
+        "aggSize": 100,
+        "roles":
+                {
+                    "admin": {
+                        "level": 1,
+                        "source": []
+                    },
+
+                    "user": {
+                        "level": 2,
+                        "source": []
+                    }
+                }
+    },
+    "JWT Expiry": {
+        "className": "JWTToken",
+        "authorizeViaMDS": false,
+        "type": "json",
+        "index": "jwttokens",
+        "signatureKey": "jfhefvirufedjeiorfiof84fhhdkfljdfkdjodjdfewrr4rr",
+        "sessionTimeout": "3600",
+        "aggSize": 100,
+        "roles":
+                {
+                    "admin": {
+                        "level": 1,
+                        "source": []
+                    },
+
+                    "user": {
+                        "level": 2,
+                        "source": []
+                    }
+                }
+    }
+}
