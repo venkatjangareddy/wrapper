@@ -94,13 +94,13 @@ Licensed to the Apache Software Foundation (ASF)
    | This is a list of authentication profiles, keyed by the server-id used within the system.
    | Authentication profiles can be used whenever maven must make a connection to a remote server.
    |-->
-  <servers>
+<!--   <servers>
   
 	<server>
 		<id>Nexus</id>
 		<username>admin</username>
 		<password>admin123</password>
-	</server>
+	</server> -->
 
     <!-- server
      | Specifies the authentication information to use when connecting to a particular server, identified by
